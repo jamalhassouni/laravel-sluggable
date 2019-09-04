@@ -104,7 +104,7 @@ automatically, with minimal configuration.
 1. Install the package via Composer:
 
    ```sh
-   $ composer require cviebrock/eloquent-sluggable:^4.8
+   $ composer require jamalhassouni/laravel-sluggable
    ```
 
    The package will automatically register its service provider.
