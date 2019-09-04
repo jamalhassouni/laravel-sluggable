@@ -47,6 +47,8 @@ return [
      * If left to "null", then use the cocur/slugify package to generate the slug
      * (with the separator defined below).
      *
+     * use "ar" to support arabic
+     *
      * Set this to a closure that accepts two parameters (string and separator)
      * to define a custom slugger.  e.g.:
      *
