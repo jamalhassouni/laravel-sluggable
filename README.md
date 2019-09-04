@@ -1,4 +1,4 @@
-# Eloquent-Sluggable
+# Laravel Eloquent-Sluggable
 
 Easy creation of slugs for your Eloquent models in Laravel.
 
