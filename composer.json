@@ -1,20 +1,22 @@
 {
-  "name": "ezhealthy/eloquent-sluggable",
-  "description": "Easy creation of slugs for your Eloquent models in Laravel 5.",
+  "name": "jamalhassouni/laravel-sluggable",
+  "description": "Easy creation of slugs for your Eloquent models in Laravel 5. support arabic ",
   "keywords": [
     "eloquent-sluggable",
+    "laravel-sluggable",
     "eloquent",
     "sluggable",
     "laravel",
     "lumen",
-    "slug"
+    "slug",
+    "nice-name"
   ],
-  "homepage": "https://ezhealthy.com",
+  "homepage": "https://github.com/jamalhassouni/",
   "license": "MIT",
   "authors": [
     {
       "name": "Jamal Hassouni",
-      "email": "jamal@ezhealthy.com"
+      "email": "jamalhassouni13@gmail.com"
     }
   ],
   "require": {
