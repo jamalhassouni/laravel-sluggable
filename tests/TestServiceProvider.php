@@ -1,13 +1,13 @@
 <?php
 
-namespace EZhealthy\LaravelSluggable\Tests;
+namespace Jamalhassouni\LaravelSluggable\Tests;
 
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 
 /**
  * Class TestServiceProvider
  *
- * @package EZhealthy\LaravelSluggable
+ * @package Jamalhassouni\LaravelSluggable
  */
 class TestServiceProvider extends BaseServiceProvider
 {

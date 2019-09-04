@@ -1,6 +1,6 @@
 <?php
 
-namespace EZhealthy\LaravelSluggable\Tests\Models;
+namespace Jamalhassouni\LaravelSluggable\Tests\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
@@ -9,7 +9,7 @@ use Illuminate\Database\Eloquent\Model;
  *
  * A test model used for the relationship tests.
  *
- * @package EZhealthy\LaravelSluggable\Tests\Models
+ * @package Jamalhassouni\LaravelSluggable\Tests\Models
  *
  * @property integer id
  * @property string name

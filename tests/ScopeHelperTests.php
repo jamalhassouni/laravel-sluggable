@@ -1,10 +1,10 @@
 <?php
 
-namespace EZhealthy\LaravelSluggable\Tests;
+namespace Jamalhassouni\LaravelSluggable\Tests;
 
-use EZhealthy\LaravelSluggable\Tests\Models\PostShortConfigWithScopeHelpers;
-use EZhealthy\LaravelSluggable\Tests\Models\PostWithMultipleSlugsAndCustomSlugKey;
-use EZhealthy\LaravelSluggable\Tests\Models\PostWithMultipleSlugsAndHelperTrait;
+use Jamalhassouni\LaravelSluggable\Tests\Models\PostShortConfigWithScopeHelpers;
+use Jamalhassouni\LaravelSluggable\Tests\Models\PostWithMultipleSlugsAndCustomSlugKey;
+use Jamalhassouni\LaravelSluggable\Tests\Models\PostWithMultipleSlugsAndHelperTrait;
 
 /**
  * Class ScopeHelperTests

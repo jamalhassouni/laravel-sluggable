@@ -1,10 +1,10 @@
 <?php
 
-namespace EZhealthy\LaravelSluggable\Tests;
+namespace Jamalhassouni\LaravelSluggable\Tests;
 
-use EZhealthy\LaravelSluggable\Tests\Models\PostWithIncludeTrashed;
-use EZhealthy\LaravelSluggable\Tests\Models\PostWithSoftDeleting;
-use EZhealthy\LaravelSluggable\Tests\Models\PostWithSoftDeletingIncludeTrashed;
+use Jamalhassouni\LaravelSluggable\Tests\Models\PostWithIncludeTrashed;
+use Jamalhassouni\LaravelSluggable\Tests\Models\PostWithSoftDeleting;
+use Jamalhassouni\LaravelSluggable\Tests\Models\PostWithSoftDeletingIncludeTrashed;
 
 /**
  * Class SoftDeleteTests

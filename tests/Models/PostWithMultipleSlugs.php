@@ -1,9 +1,9 @@
-<?php namespace EZhealthy\LaravelSluggable\Tests\Models;
+<?php namespace Jamalhassouni\LaravelSluggable\Tests\Models;
 
 /**
  * Class PostWithMultipleSlugs
  *
- * @package EZhealthy\LaravelSluggable\Tests\Models
+ * @package Jamalhassouni\LaravelSluggable\Tests\Models
  */
 class PostWithMultipleSlugs extends Post
 {

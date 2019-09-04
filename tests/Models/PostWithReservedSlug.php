@@ -1,11 +1,11 @@
-<?php namespace EZhealthy\LaravelSluggable\Tests\Models;
+<?php namespace Jamalhassouni\LaravelSluggable\Tests\Models;
 
 /**
  * Class PostWithReservedSlug
  *
  * A test model that uses custom reserved slug names.
  *
- * @package EZhealthy\LaravelSluggable\Tests\Models
+ * @package Jamalhassouni\LaravelSluggable\Tests\Models
  */
 class PostWithReservedSlug extends Post
 {

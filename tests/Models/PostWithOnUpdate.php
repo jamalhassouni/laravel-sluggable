@@ -1,11 +1,11 @@
-<?php namespace EZhealthy\LaravelSluggable\Tests\Models;
+<?php namespace Jamalhassouni\LaravelSluggable\Tests\Models;
 
 /**
  * Class PostWithOnUpdate
  *
  * A test model that uses the onUpdate functionality.
  *
- * @package EZhealthy\LaravelSluggable\Tests\Models
+ * @package Jamalhassouni\LaravelSluggable\Tests\Models
  */
 class PostWithOnUpdate extends Post
 {

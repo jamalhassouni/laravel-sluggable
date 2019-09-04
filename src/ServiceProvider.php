@@ -1,8 +1,8 @@
 <?php
 
-namespace EZhealthy\LaravelSluggable;
+namespace Jamalhassouni\LaravelSluggable;
 
-use EZhealthy\LaravelSluggable\Services\SlugService;
+use Jamalhassouni\LaravelSluggable\Services\SlugService;
 use Illuminate\Foundation\Application as LaravelApplication;
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 use Laravel\Lumen\Application as LumenApplication;
@@ -10,7 +10,7 @@ use Laravel\Lumen\Application as LumenApplication;
 /**
  * Class ServiceProvider
  *
- * @package EZhealthy\LaravelSluggable
+ * @package Jamalhassouni\LaravelSluggable
  */
 class ServiceProvider extends BaseServiceProvider
 {

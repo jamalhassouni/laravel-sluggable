@@ -1,4 +1,4 @@
-<?php namespace EZhealthy\LaravelSluggable\Tests\Models;
+<?php namespace Jamalhassouni\LaravelSluggable\Tests\Models;
 
 use Illuminate\Database\Eloquent\SoftDeletes;
 
@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\SoftDeletes;
  *
  * A test model that uses the Sluggable package and uses Laravel's SoftDeleting trait.
  *
- * @package EZhealthy\LaravelSluggable\Tests\Models
+ * @package Jamalhassouni\LaravelSluggable\Tests\Models
  */
 class PostWithSoftDeleting extends Post
 {

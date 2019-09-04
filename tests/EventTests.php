@@ -1,9 +1,9 @@
 <?php
 
-namespace EZhealthy\LaravelSluggable\Tests;
+namespace Jamalhassouni\LaravelSluggable\Tests;
 
-use EZhealthy\LaravelSluggable\Tests\Listeners\AbortSlugging;
-use EZhealthy\LaravelSluggable\Tests\Models\Post;
+use Jamalhassouni\LaravelSluggable\Tests\Listeners\AbortSlugging;
+use Jamalhassouni\LaravelSluggable\Tests\Models\Post;
 
 /**
  * Class EventTests

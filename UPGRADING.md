@@ -21,21 +21,21 @@ The configuration array has changed slightly between versions:
 * In your `app/config/sluggable.php` configuration file, remove the `save_to`  
   parameter as it is no longer used.  Rename `build_from` to `source`, and convert the other
   parameters from snake_case to lower camelCase (e.g. `include_trashed` -> `includeTrashed`).
-* Your models no longer need to implement `EZhealthy\LaravelSluggable\SluggableInterface`.
-* Your models should now use the trait `EZhealthy\LaravelSluggable\Sluggable` instead of 
-  `EZhealthy\LaravelSluggable\SluggableTrait`, which no longer exists.
+* Your models no longer need to implement `Jamalhassouni\LaravelSluggable\SluggableInterface`.
+* Your models should now use the trait `Jamalhassouni\LaravelSluggable\Sluggable` instead of 
+  `Jamalhassouni\LaravelSluggable\SluggableTrait`, which no longer exists.
 * Per-model configuration has been moved from a protect property into a protected method, and 
   the configuration array is now keyed with the attribute field where the slug is stored (i.e. the
   previous value of the `save_to` configuration.
 * The service provider name has changed, so update the entry in your project's `config/app.php`
-  from `EZhealthy\LaravelSluggable\SluggableServiceProvider::class` to
-  `EZhealthy\LaravelSluggable\ServiceProvider::class`.
+  from `Jamalhassouni\LaravelSluggable\SluggableServiceProvider::class` to
+  `Jamalhassouni\LaravelSluggable\ServiceProvider::class`.
   
 #### Version 3.x Configuration Example:
   
 ```php
-use EZhealthy\LaravelSluggable\SluggableInterface;
-use EZhealthy\LaravelSluggable\SluggableTrait;
+use Jamalhassouni\LaravelSluggable\SluggableInterface;
+use Jamalhassouni\LaravelSluggable\SluggableTrait;
 use Illuminate\Database\Eloquent\Model;
 
 class Post extends Model implements SluggableInterface
@@ -59,7 +59,7 @@ class Post extends Model implements SluggableInterface
 #### Converted Version 4.x Example:
 
 ```php
-use EZhealthy\LaravelSluggable\Sluggable;
+use Jamalhassouni\LaravelSluggable\Sluggable;
 use Illuminate\Database\Eloquent\Model;
 
 class Post extends Model

@@ -1,8 +1,8 @@
 <?php
 
-namespace EZhealthy\LaravelSluggable\Tests;
+namespace Jamalhassouni\LaravelSluggable\Tests;
 
-use EZhealthy\LaravelSluggable\ServiceProvider;
+use Jamalhassouni\LaravelSluggable\ServiceProvider;
 use Illuminate\Contracts\Events\Dispatcher;
 use Mockery;
 use Orchestra\Testbench\TestCase as Orchestra;

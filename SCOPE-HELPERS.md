@@ -25,8 +25,8 @@ put the field to be used for scopes first, or define an additional property on y
 slug is the "primary" one:
 
 ```php
-use EZhealthy\LaravelSluggable\Sluggable;
-use EZhealthy\LaravelSluggable\SluggableScopeHelpers;
+use Jamalhassouni\LaravelSluggable\Sluggable;
+use Jamalhassouni\LaravelSluggable\SluggableScopeHelpers;
 use Illuminate\Database\Eloquent\Model;
 
 class Post extends Model

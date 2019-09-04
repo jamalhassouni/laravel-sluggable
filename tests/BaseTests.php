@@ -1,26 +1,26 @@
 <?php
 
-namespace EZhealthy\LaravelSluggable\Tests;
+namespace Jamalhassouni\LaravelSluggable\Tests;
 
-use EZhealthy\LaravelSluggable\Tests\Models\Author;
-use EZhealthy\LaravelSluggable\Tests\Models\Post;
-use EZhealthy\LaravelSluggable\Tests\Models\PostNotSluggable;
-use EZhealthy\LaravelSluggable\Tests\Models\PostShortConfig;
-use EZhealthy\LaravelSluggable\Tests\Models\PostWithCustomCallableMethod;
-use EZhealthy\LaravelSluggable\Tests\Models\PostWithCustomEngine;
-use EZhealthy\LaravelSluggable\Tests\Models\PostWithCustomMethod;
-use EZhealthy\LaravelSluggable\Tests\Models\PostWithCustomSeparator;
-use EZhealthy\LaravelSluggable\Tests\Models\PostWithCustomSource;
-use EZhealthy\LaravelSluggable\Tests\Models\PostWithCustomSuffix;
-use EZhealthy\LaravelSluggable\Tests\Models\PostWithEmptySeparator;
-use EZhealthy\LaravelSluggable\Tests\Models\PostWithForeignRuleset;
-use EZhealthy\LaravelSluggable\Tests\Models\PostWithMaxLength;
-use EZhealthy\LaravelSluggable\Tests\Models\PostWithMaxLengthSplitWords;
-use EZhealthy\LaravelSluggable\Tests\Models\PostWithMultipleSlugs;
-use EZhealthy\LaravelSluggable\Tests\Models\PostWithMultipleSources;
-use EZhealthy\LaravelSluggable\Tests\Models\PostWithNoSource;
-use EZhealthy\LaravelSluggable\Tests\Models\PostWithRelation;
-use EZhealthy\LaravelSluggable\Tests\Models\PostWithReservedSlug;
+use Jamalhassouni\LaravelSluggable\Tests\Models\Author;
+use Jamalhassouni\LaravelSluggable\Tests\Models\Post;
+use Jamalhassouni\LaravelSluggable\Tests\Models\PostNotSluggable;
+use Jamalhassouni\LaravelSluggable\Tests\Models\PostShortConfig;
+use Jamalhassouni\LaravelSluggable\Tests\Models\PostWithCustomCallableMethod;
+use Jamalhassouni\LaravelSluggable\Tests\Models\PostWithCustomEngine;
+use Jamalhassouni\LaravelSluggable\Tests\Models\PostWithCustomMethod;
+use Jamalhassouni\LaravelSluggable\Tests\Models\PostWithCustomSeparator;
+use Jamalhassouni\LaravelSluggable\Tests\Models\PostWithCustomSource;
+use Jamalhassouni\LaravelSluggable\Tests\Models\PostWithCustomSuffix;
+use Jamalhassouni\LaravelSluggable\Tests\Models\PostWithEmptySeparator;
+use Jamalhassouni\LaravelSluggable\Tests\Models\PostWithForeignRuleset;
+use Jamalhassouni\LaravelSluggable\Tests\Models\PostWithMaxLength;
+use Jamalhassouni\LaravelSluggable\Tests\Models\PostWithMaxLengthSplitWords;
+use Jamalhassouni\LaravelSluggable\Tests\Models\PostWithMultipleSlugs;
+use Jamalhassouni\LaravelSluggable\Tests\Models\PostWithMultipleSources;
+use Jamalhassouni\LaravelSluggable\Tests\Models\PostWithNoSource;
+use Jamalhassouni\LaravelSluggable\Tests\Models\PostWithRelation;
+use Jamalhassouni\LaravelSluggable\Tests\Models\PostWithReservedSlug;
 
 /**
  * Class BaseTests

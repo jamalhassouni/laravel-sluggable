@@ -1,11 +1,11 @@
-<?php namespace EZhealthy\LaravelSluggable\Tests\Models;
+<?php namespace Jamalhassouni\LaravelSluggable\Tests\Models;
 
-use EZhealthy\LaravelSluggable\SluggableScopeHelpers;
+use Jamalhassouni\LaravelSluggable\SluggableScopeHelpers;
 
 /**
  * Class PostWithMultipleSlugsAndPrimary
  *
- * @package EZhealthy\LaravelSluggable\Tests\Models
+ * @package Jamalhassouni\LaravelSluggable\Tests\Models
  */
 class PostWithMultipleSlugsAndHelperTrait extends PostWithMultipleSlugs
 {

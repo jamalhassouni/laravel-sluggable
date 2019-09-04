@@ -1,9 +1,9 @@
 <?php
 
-namespace EZhealthy\LaravelSluggable\Tests;
+namespace Jamalhassouni\LaravelSluggable\Tests;
 
-use EZhealthy\LaravelSluggable\Services\SlugService;
-use EZhealthy\LaravelSluggable\Tests\Models\Post;
+use Jamalhassouni\LaravelSluggable\Services\SlugService;
+use Jamalhassouni\LaravelSluggable\Tests\Models\Post;
 
 /**
  * Class StaticTests

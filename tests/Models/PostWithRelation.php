@@ -1,13 +1,13 @@
-<?php namespace EZhealthy\LaravelSluggable\Tests\Models;
+<?php namespace Jamalhassouni\LaravelSluggable\Tests\Models;
 
 /**
  * Class PostWithRelation
  *
  * A test model used for the relationship tests.
  *
- * @package EZhealthy\LaravelSluggable\Tests\Models
+ * @package Jamalhassouni\LaravelSluggable\Tests\Models
  *
- * @property \EZhealthy\LaravelSluggable\Tests\Models\Author author
+ * @property \Jamalhassouni\LaravelSluggable\Tests\Models\Author author
  */
 class PostWithRelation extends Post
 {

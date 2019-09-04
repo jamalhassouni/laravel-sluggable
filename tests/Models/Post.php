@@ -1,12 +1,12 @@
-<?php namespace EZhealthy\LaravelSluggable\Tests\Models;
+<?php namespace Jamalhassouni\LaravelSluggable\Tests\Models;
 
-use EZhealthy\LaravelSluggable\Sluggable;
+use Jamalhassouni\LaravelSluggable\Sluggable;
 use Illuminate\Database\Eloquent\Model;
 
 /**
  * Class Post
  *
- * @package EZhealthy\LaravelSluggable\Tests\Models
+ * @package Jamalhassouni\LaravelSluggable\Tests\Models
  *
  * @property integer id
  * @property string title

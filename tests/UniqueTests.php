@@ -1,10 +1,10 @@
 <?php
 
-namespace EZhealthy\LaravelSluggable\Tests;
+namespace Jamalhassouni\LaravelSluggable\Tests;
 
-use EZhealthy\LaravelSluggable\Tests\Models\Author;
-use EZhealthy\LaravelSluggable\Tests\Models\Post;
-use EZhealthy\LaravelSluggable\Tests\Models\PostWithUniqueSlugConstraints;
+use Jamalhassouni\LaravelSluggable\Tests\Models\Author;
+use Jamalhassouni\LaravelSluggable\Tests\Models\Post;
+use Jamalhassouni\LaravelSluggable\Tests\Models\PostWithUniqueSlugConstraints;
 
 /**
  * Class UniqueTests

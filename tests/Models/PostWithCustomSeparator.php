@@ -1,11 +1,11 @@
-<?php namespace EZhealthy\LaravelSluggable\Tests\Models;
+<?php namespace Jamalhassouni\LaravelSluggable\Tests\Models;
 
 /**
  * Class PostWithCustomSeparator
  *
  * A test model that uses a custom suffix generation method.
  *
- * @package EZhealthy\LaravelSluggable\Tests\Models
+ * @package Jamalhassouni\LaravelSluggable\Tests\Models
  */
 class PostWithCustomSeparator extends Post
 {

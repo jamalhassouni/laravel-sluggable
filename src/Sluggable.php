@@ -1,15 +1,15 @@
 <?php
 
-namespace EZhealthy\LaravelSluggable;
+namespace Jamalhassouni\LaravelSluggable;
 
-use EZhealthy\LaravelSluggable\Services\SlugService;
+use Jamalhassouni\LaravelSluggable\Services\SlugService;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
 
 /**
  * Class Sluggable
  *
- * @package EZhealthy\LaravelSluggable
+ * @package Jamalhassouni\LaravelSluggable
  */
 trait Sluggable
 {

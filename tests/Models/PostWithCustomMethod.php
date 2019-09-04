@@ -1,4 +1,4 @@
-<?php namespace EZhealthy\LaravelSluggable\Tests\Models;
+<?php namespace Jamalhassouni\LaravelSluggable\Tests\Models;
 
 use Illuminate\Support\Str;
 
@@ -6,7 +6,7 @@ use Illuminate\Support\Str;
 /**
  * Class PostWithCustomMethod
  *
- * @package EZhealthy\LaravelSluggable\Tests\Models
+ * @package Jamalhassouni\LaravelSluggable\Tests\Models
  */
 class PostWithCustomMethod extends Post
 {

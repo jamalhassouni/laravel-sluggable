@@ -1,4 +1,4 @@
-<?php namespace EZhealthy\LaravelSluggable\Tests\Models;
+<?php namespace Jamalhassouni\LaravelSluggable\Tests\Models;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model;
@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 /**
  * Class PostWithUniqueSlugConstraints
  *
- * @package EZhealthy\LaravelSluggable\Tests\Models
+ * @package Jamalhassouni\LaravelSluggable\Tests\Models
  */
 class PostWithUniqueSlugConstraints extends Post
 {

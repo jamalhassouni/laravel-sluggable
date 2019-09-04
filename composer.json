@@ -35,12 +35,12 @@
   },
   "autoload": {
     "psr-4": {
-      "EZhealthy\\LaravelSluggable\\": "src"
+      "Jamalhassouni\\LaravelSluggable\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "EZhealthy\\LaravelSluggable\\Tests\\": "tests"
+      "Jamalhassouni\\LaravelSluggable\\Tests\\": "tests"
     }
   },
   "scripts": {
@@ -49,7 +49,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "EZhealthy\\LaravelSluggable\\ServiceProvider"
+        "Jamalhassouni\\LaravelSluggable\\ServiceProvider"
       ]
     }
   },

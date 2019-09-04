@@ -1,6 +1,6 @@
 <?php
 
-namespace EZhealthy\LaravelSluggable\Services;
+namespace Jamalhassouni\LaravelSluggable\Services;
 
 use Cocur\Slugify\Slugify;
 use Illuminate\Database\Eloquent\Model;
@@ -10,7 +10,7 @@ use Illuminate\Support\Collection;
 /**
  * Class SlugService
  *
- * @package EZhealthy\LaravelSluggable\Services
+ * @package Jamalhassouni\LaravelSluggable\Services
  */
 class SlugService
 {

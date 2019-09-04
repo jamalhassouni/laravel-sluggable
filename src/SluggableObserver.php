@@ -1,21 +1,21 @@
 <?php
 
-namespace EZhealthy\LaravelSluggable;
+namespace Jamalhassouni\LaravelSluggable;
 
-use EZhealthy\LaravelSluggable\Services\SlugService;
+use Jamalhassouni\LaravelSluggable\Services\SlugService;
 use Illuminate\Contracts\Events\Dispatcher;
 use Illuminate\Database\Eloquent\Model;
 
 /**
  * Class SluggableObserver
  *
- * @package EZhealthy\LaravelSluggable
+ * @package Jamalhassouni\LaravelSluggable
  */
 class SluggableObserver
 {
 
     /**
-     * @var \EZhealthy\LaravelSluggable\Services\SlugService
+     * @var \Jamalhassouni\LaravelSluggable\Services\SlugService
      */
     private $slugService;
 
@@ -27,7 +27,7 @@ class SluggableObserver
     /**
      * SluggableObserver constructor.
      *
-     * @param \EZhealthy\LaravelSluggable\Services\SlugService $slugService
+     * @param \Jamalhassouni\LaravelSluggable\Services\SlugService $slugService
      * @param \Illuminate\Contracts\Events\Dispatcher $events
      */
     public function __construct(SlugService $slugService, Dispatcher $events)

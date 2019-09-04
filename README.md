@@ -116,7 +116,7 @@ automatically, with minimal configuration.
 2. Optionally, publish the configuration file if you want to change any defaults:
 
     ```sh
-    php artisan vendor:publish --provider="EZhealthy\LaravelSluggable\ServiceProvider"
+    php artisan vendor:publish --provider="Jamalhassouni\LaravelSluggable\ServiceProvider"
     ```
 
 
@@ -127,7 +127,7 @@ that you need to define.  This is where any model-specific configuration is set
 (see [Configuration](#configuration) below for details):
 
 ```php
-use EZhealthy\LaravelSluggable\Sluggable;
+use Jamalhassouni\LaravelSluggable\Sluggable;
 
 class Post extends Model
 {
@@ -208,14 +208,14 @@ Note that empty strings, non-strings or other "odd" source values will result in
 ## The SlugService Class 
 
 All the logic to generate slugs is handled
-by the `\EZhealthy\LaravelSluggable\Services\SlugService` class.
+by the `\Jamalhassouni\LaravelSluggable\Services\SlugService` class.
 
 Generally, you don't need to access this class directly, although there is one 
 static method that can be used to generate a slug for a given string without actually
 creating or saving an associated model.
 
 ```php
-use \EZhealthy\LaravelSluggable\Services\SlugService;
+use \Jamalhassouni\LaravelSluggable\Services\SlugService;
 
 $slug = SlugService::createSlug(Post::class, 'slug', 'My First Post');
 ```

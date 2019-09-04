@@ -9,8 +9,8 @@ Implicit binding requires adding a `getRouteKeyName()` method to your model that
 of the slug field:
 
 ```php
-use EZhealthy\LaravelSluggable\Sluggable;
-use EZhealthy\LaravelSluggable\SluggableScopeHelpers;
+use Jamalhassouni\LaravelSluggable\Sluggable;
+use Jamalhassouni\LaravelSluggable\SluggableScopeHelpers;
 use Illuminate\Database\Eloquent\Model;
 
 class Post extends Model

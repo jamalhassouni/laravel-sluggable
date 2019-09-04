@@ -1,9 +1,9 @@
 <?php
 
-namespace EZhealthy\LaravelSluggable\Tests;
+namespace Jamalhassouni\LaravelSluggable\Tests;
 
-use EZhealthy\LaravelSluggable\Tests\Models\Post;
-use EZhealthy\LaravelSluggable\Tests\Models\PostWithOnUpdate;
+use Jamalhassouni\LaravelSluggable\Tests\Models\Post;
+use Jamalhassouni\LaravelSluggable\Tests\Models\PostWithOnUpdate;
 
 /**
  * Class OnUpdateTests

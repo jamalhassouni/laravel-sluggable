@@ -1,4 +1,4 @@
-<?php namespace EZhealthy\LaravelSluggable\Tests\Listeners;
+<?php namespace Jamalhassouni\LaravelSluggable\Tests\Listeners;
 
 /**
  * Class AbortSlugging

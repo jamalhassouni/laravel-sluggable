@@ -1,4 +1,4 @@
-<?php namespace EZhealthy\LaravelSluggable\Tests\Models;
+<?php namespace Jamalhassouni\LaravelSluggable\Tests\Models;
 
 use Cocur\Slugify\Slugify;
 
@@ -7,7 +7,7 @@ use Cocur\Slugify\Slugify;
  *
  * A test model that customizes the Slugify engine with a foreign ruleset.
  *
- * @package EZhealthy\LaravelSluggable\Tests\Models
+ * @package Jamalhassouni\LaravelSluggable\Tests\Models
  */
 class PostWithForeignRuleset extends Post
 {
