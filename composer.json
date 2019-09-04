@@ -1,0 +1,56 @@
+{
+  "name": "ezhealthy/eloquent-sluggable",
+  "description": "Easy creation of slugs for your Eloquent models in Laravel 5.",
+  "keywords": [
+    "eloquent-sluggable",
+    "eloquent",
+    "sluggable",
+    "laravel",
+    "lumen",
+    "slug"
+  ],
+  "homepage": "https://ezhealthy.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jamal Hassouni",
+      "email": "jamal@ezhealthy.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1",
+    "cocur/slugify": "^3.1",
+    "illuminate/config": "~5.8.0",
+    "illuminate/database": "~5.8.0",
+    "illuminate/support": "~5.8.0"
+  },
+  "require-dev": {
+    "mockery/mockery": "^1.2",
+    "orchestra/database": "3.8.x-dev",
+    "orchestra/testbench": "v3.8.0",
+    "phpunit/phpunit": "~7.0",
+    "limedeck/phpunit-detailed-printer": "^4.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "EZhealthy\\LaravelSluggable\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "EZhealthy\\LaravelSluggable\\Tests\\": "tests"
+    }
+  },
+  "scripts": {
+    "test": "./vendor/bin/phpunit"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "EZhealthy\\LaravelSluggable\\ServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
