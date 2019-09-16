@@ -44,10 +44,9 @@ class SlugService
         // Make alphanumeric (removes all other characters)
         // this makes the string safe especially when used as a part of a URL
         // this keeps latin characters and arabic charactrs as well
-        $string = preg_replace("/[^a-z0-9_\s-ءاأإآؤئبتثجحخدذرزسشصضطظعغفقكلمنهويةى]#u/", "", $string);
-
+        $string = preg_replace("/[^a-z0-9_\s\-ءاأإآؤئبتثجحخدذرزسشصضطظعغفقكلمنهويةى]#u/", "", $string);
         // Remove multiple dashes or whitespaces
-        $string = preg_replace("/[\s-]+/", " ", $string);
+        $string = preg_replace("/[\s\-]+/", " ", $string);
 
         // Convert whitespaces and underscore to the given separator
         $string = preg_replace("/[\s_]/", $separator, $string);
